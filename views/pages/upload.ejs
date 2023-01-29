@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SamNx.xyz | CDN</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex flex-col items-center justify-center w-screen h-screen bg-gray-800">
+        <h1 class="text-2xl text-center font-bold text-white">SamNx.xyz CDN</h1>
+        <h2 class="text-xl text-center font-semibold text-white">Upload a file</h2>
+
+        <form action="upload" method="post" enctype="multipart/form-data" class="mt-4">
+            <div class="flex flex-col items-center justify-center w-full h-full text-white">
+                <input type="file" name="cdnupload" class="w-full h-full border border-gray-600 rounded-lg">
+                <!-- <input type="text" name="test" class="w-full h-full border border-gray-600 rounded-lg"> -->
+                <input type="submit" value="Upload" class="w-full h-full bg-blue-600 rounded-lg mt-2 shadow-lg hover:bg-blue-700">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
